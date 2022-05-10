@@ -3,7 +3,8 @@
     Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
     'Segoe UI Symbol';
   --aria-font-family-serif: Georgia, 'Times New Roman', serif;
-  --aria-font-family-mono: Menlo, Monaco, 'Courier New', monospace;
+  --aria-font-family-mono: Menlo, Monaco, 'Roboto Mono', 'Courier New',
+    monospace;
 
   --aria-font-size-xx-small: 0.625rem;
   --aria-font-size-x-small: 0.75rem;
@@ -27,4 +28,7 @@
   --aria-line-height-dense: 1.4;
   --aria-line-height-normal: 1.8;
   --aria-line-height-loose: 2.2;
+
+  --reva-font-size-desktop-fine-print: var(--aria-font-size-xx-small);
+  --reva-font-size-mobile-xx-small: var(--aria-font-size-xx-small);
 }
